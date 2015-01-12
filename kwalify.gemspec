@@ -1,9 +1,9 @@
 #!/usr/bin/ruby
 
 ###
-### $Rev: 94 $
-### $Release: 0.7.1 $
-### copyright(c) 2005-2008 kuwata-lab all rights reserved.
+### $Rev$
+### $Release: 0.7.2 $
+### copyright(c) 2005-2010 kuwata-lab all rights reserved.
 ###
 
 require 'rubygems'
@@ -12,7 +12,7 @@ spec = Gem::Specification.new do |s|
    ## package information
    s.name        = "kwalify"
    s.author      = "makoto kuwata"
-   s.version     = "0.7.1"
+   s.version     = "0.7.2"
    s.platform    = Gem::Platform::RUBY
    s.homepage    = "http://www.kuwata-lab.com/kwalify/"
    s.summary     = "a parser, schema validator, and data-binding tool for YAML and JSON."
